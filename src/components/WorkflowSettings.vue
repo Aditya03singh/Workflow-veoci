@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Workflow Settings</h2>
+        <h3>Workflow Settings</h3>
     </div>
 </template>
 

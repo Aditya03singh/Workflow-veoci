@@ -88,12 +88,11 @@ export default {
   display: flex;
   height: 100vh;
   background: white;
-  padding: 10px;
 }
 .main-workflow-btn{
   width: 30%;
   background: lightgray;
-  padding: 10px;
+  padding: 5px;
 }
 .form-content {
   width: 70%;
@@ -108,7 +107,6 @@ export default {
   color: white;
   border-radius: 5px;
 }
-
 .tab-btn button{
   padding: 8px 16px;
   margin: 5px;
@@ -118,7 +116,6 @@ export default {
   color: white;
   border-radius: 5px;
 }
-
 .edit-button{
   padding: 8px 16px;
   margin: 5px;
@@ -128,7 +125,6 @@ export default {
   color: white;
   border-radius: 5px;
 }
-
 .delete-button{
   padding: 8px 16px;
   margin: 5px;
@@ -138,7 +134,6 @@ export default {
   color: white;
   border-radius: 5px;
 }
-
 .add-button{
   padding: 8px 16px;
   margin: 5px;
@@ -148,7 +143,6 @@ export default {
   color: white;
   border-radius: 5px;
 }
-
 .all-workflow-btn:hover{
     background: darkblue;
 }
@@ -171,5 +165,4 @@ export default {
   align-items: center;
   margin-bottom: 10px;
 }
-
 </style>
