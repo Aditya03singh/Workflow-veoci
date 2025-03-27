@@ -48,6 +48,7 @@
     </div>
   </div>
 
+
 <!--create workflow-->
   <div v-if="showPopUp" class="select-container">
     <div class="show">
@@ -153,7 +154,7 @@ export default {
       this.$router.push("/show_workflow");
     },
     close_workflow(){
-      this.showData = null;
+      this.showData = false;
       this.$router.push("/");
     },
     editWorkflow(){
