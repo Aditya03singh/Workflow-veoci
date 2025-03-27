@@ -91,6 +91,7 @@ export default {
 }
 .main-workflow-btn{
   width: 30%;
+  height:100%;
   background: lightgray;
   padding: 5px;
 }
