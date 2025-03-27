@@ -17,7 +17,7 @@
         </thead>
         <tbody>
           <tr v-for="item in details" :key="item.id" class="tr border">
-            <td class="td"><button class="btn" @click="displayData(record)">Show</button></td>
+            <td class="td"><button class="btn" @click="displayData(item)">Show</button></td>
             <td class="td"><button class="btn" @click="openPopUp">Create</button></td>
             <td class="td"><button class="btn" @click="editWorkflow">Edit</button></td>
 
@@ -139,8 +139,8 @@ export default {
       this.showPopUp = true;
       this.$router.push("/create_workflow");
     },
-    displayData(record) {
-      this.showData = record;
+    displayData(item) {
+      this.showData = item;
       this.$router.push("/show_workflow");
     },
     close_workflow(){
